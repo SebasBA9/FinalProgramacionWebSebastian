@@ -1,0 +1,29 @@
+{
+  "name": "pokemon-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jest": "^29.7.0",
+    "mongoose": "^8.4.0",
+    "supertest": "^7.0.0"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^9.3.0",
+    "nodemon": "^3.1.1"
+  }
+}
